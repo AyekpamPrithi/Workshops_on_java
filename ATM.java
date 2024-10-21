@@ -8,7 +8,7 @@ public class ATM {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
-        // Enter the pin
+        // Entering the pin
         if (Checking_Pin(sc)) {
             System.out.println("You entered a valid pin.");
             
@@ -37,7 +37,7 @@ public class ATM {
             int userPin = sc.nextInt();
             return userPin == pin; // Returns true if the pin matches, otherwise false
         } else {
-            return false; // If the input is not integer then it will give false
+            return false; 
         }
     }
 
@@ -58,13 +58,13 @@ public class ATM {
         }
     }
 
-    // Deposit operation
+    // Deposition operation
     public static void Deposit_Amount(Scanner sc) {
         System.out.print("Enter the deposit amount (max 50000): ");
         if (sc.hasNextInt()) {
             int deposit = sc.nextInt();
 
-            // Check if the deposit amount is within the allowed limit
+            // Checking if the deposit amount is within the allowed limit
             if (deposit <= 50000) {
                 balance += deposit; // Add deposit to user balance
                 atmBalance += deposit; // Add deposit to ATM balance
