@@ -23,6 +23,7 @@ Java provides a wide range of data types to handle different kinds of data. Here
 | `int`     | Integer data type, holds whole numbers     | `int x = 10;`         |
 | `float`   | Floating-point data type, holds decimals   | `float y = 3.14;`     |
 | `char`    | Character data type, holds a single letter | `char ch = 'A';`      |
+| `double`  | Double-precision floating-point, holds larger decimals | `double z = 3.14159;` |
 | `boolean` | Boolean data type, holds true/false values | `boolean flag = true;`|
 | `String`  | Non-primitive, represents sequences of characters | `String name = "Java";` |
 
