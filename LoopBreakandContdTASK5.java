@@ -9,7 +9,7 @@ public class LoopBreakandContdTASK5 {
         System.out.println("For loop with break (stops at 5):");
         for (int i = 1; i <= 10; i++) {
             if (i == 7) {
-                break; // Exit the loop when i equals 5
+                break; // Exit the loop when i equals 6
             }
             System.out.println("i = " + i); // Print i
         }
